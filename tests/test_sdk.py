@@ -35,3 +35,5 @@ def test_optimise():
              )
     
     assert isclose(y, 9.029805474642522e-06)
+    assert isclose(x[0], -0.10012210012209977)
+    assert isclose(x[1], -0.10012210012209977)

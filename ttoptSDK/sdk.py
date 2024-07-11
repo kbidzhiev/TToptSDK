@@ -36,6 +36,6 @@ def optimize(
     t_average = tto.t_evals_mean
 
     assert tto.k_evals == n_evals
-    total =  tto.info()
+    total = tto.info()
 
     return x_min, y_min, (n_chache_usage, t_average, total)
