@@ -1,6 +1,6 @@
 from ttoptSDK import optimize
 import numpy as np
-#import ttoptSDK
+
 
 
 def f(X):
