@@ -9,10 +9,10 @@ def optimize(
     p_grid_factor,
     q_grid_factor,
     n_evals,
-    x_opt_real=None,
-    y_opt_real=None,
     name='Alpine',
     with_log=False,
+    x_opt_real=None,
+    y_opt_real=None,
     ):
 
     tto = TTOpt(
@@ -39,3 +39,7 @@ def optimize(
     total = tto.info()
 
     return x_min, y_min, (n_chache_usage, t_average, total)
+
+
+
+#__all__ = ['optimize']
